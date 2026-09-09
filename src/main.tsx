@@ -6,11 +6,11 @@ import './styles/tokens.css'
 import App from './App.tsx'
 
 createRoot(document.getElementById('root')!).render(
-  <StrictMode>
-    <BrowserRouter>
-      <LanguageProvider>
-        <App />
-      </LanguageProvider>
-    </BrowserRouter>
-  </StrictMode>,
+	<StrictMode>
+		<BrowserRouter basename='/derTr-ger/'>
+			<LanguageProvider>
+				<App />
+			</LanguageProvider>
+		</BrowserRouter>
+	</StrictMode>,
 )
