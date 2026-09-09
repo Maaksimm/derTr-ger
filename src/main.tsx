@@ -1,16 +1,16 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import { BrowserRouter } from 'react-router-dom'
+import { HashRouter } from 'react-router-dom'
 import { LanguageProvider } from './i18n/LanguageContext'
 import './styles/tokens.css'
 import App from './App.tsx'
 
 createRoot(document.getElementById('root')!).render(
 	<StrictMode>
-		<BrowserRouter basename='/derTr-ger/'>
+		<HashRouter>
 			<LanguageProvider>
 				<App />
 			</LanguageProvider>
-		</BrowserRouter>
+		</HashRouter>
 	</StrictMode>,
 )
