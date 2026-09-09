@@ -1,0 +1,37 @@
+.page {
+  flex: 1;
+  width: 100%;
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 28px 20px 60px;
+}
+
+.page__intro {
+  margin-bottom: 22px;
+}
+
+.page__title {
+  font-family: var(--font-display);
+  font-size: clamp(26px, 4vw, 34px);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  margin: 0 0 8px;
+}
+
+.page__subtitle {
+  max-width: 62ch;
+  color: var(--text-muted);
+  font-size: 14.5px;
+  line-height: 1.55;
+  margin: 0;
+}
+
+.page__controls {
+  margin: 22px 0 16px;
+}
+
+.trip-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}

@@ -1,0 +1,26 @@
+.reward-banner {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 16px;
+}
+
+.reward-banner__percent,
+.reward-banner__plus {
+  font-family: var(--font-display);
+  font-weight: 700;
+  border-radius: var(--radius-md);
+  padding: 10px 18px;
+}
+
+.reward-banner__percent {
+  font-size: 26px;
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+.reward-banner__plus {
+  font-size: 18px;
+  background: var(--route-soft);
+  color: var(--route);
+}

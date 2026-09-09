@@ -1,0 +1,34 @@
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 4px 10px;
+  border-radius: 999px;
+}
+
+.status-badge::before {
+  content: '';
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+}
+
+.status-badge--planned {
+  background: var(--route-soft);
+  color: var(--route);
+}
+
+.status-badge--planned::before {
+  background: var(--route);
+}
+
+.status-badge--completed {
+  background: var(--surface-raised);
+  color: var(--text-faint);
+}
+
+.status-badge--completed::before {
+  background: var(--text-faint);
+}

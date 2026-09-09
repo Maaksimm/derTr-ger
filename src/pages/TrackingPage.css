@@ -1,0 +1,60 @@
+.tracking-form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 14px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.tracking-form__field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 12.5px;
+  color: var(--text-muted);
+  flex: 1 1 200px;
+}
+
+.tracking-form__field input {
+  font-family: var(--font-body);
+  font-size: 14px;
+  padding: 9px 10px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+  background: var(--surface-raised);
+  color: var(--text);
+}
+
+.tracking-form__field input:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.tracking-form__submit {
+  border: none;
+  background: var(--accent);
+  color: var(--accent-contrast);
+  font-weight: 600;
+  font-size: 14px;
+  padding: 10px 18px;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  flex: 0 0 auto;
+}
+
+.tracking-form__submit:hover {
+  opacity: 0.9;
+}
+
+.tracking-form__empty {
+  border: 1px dashed var(--border);
+  border-radius: var(--radius-md);
+  padding: 16px;
+  color: var(--text-faint);
+  font-size: 14px;
+  text-align: center;
+}

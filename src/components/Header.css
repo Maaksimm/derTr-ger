@@ -1,0 +1,113 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 14px 20px;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+}
+
+.header__menu-btn,
+.header__theme-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text);
+  border-radius: var(--radius-sm);
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: border-color 0.15s ease, color 0.15s ease;
+}
+
+.header__actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.header__lang {
+  display: inline-flex;
+  gap: 2px;
+  padding: 2px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+}
+
+.header__lang-btn {
+  border: none;
+  background: transparent;
+  color: var(--text-faint);
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  padding: 6px 9px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.header__lang-btn:hover {
+  color: var(--text);
+}
+
+.header__lang-btn--active {
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+.header__menu-btn span {
+  font-size: 13px;
+  letter-spacing: 0.02em;
+}
+
+.header__menu-btn:hover,
+.header__theme-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.header__theme-btn {
+  padding: 8px;
+}
+
+.header__brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: var(--text);
+}
+
+.header__brand-mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: var(--radius-sm);
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+.header__brand-name {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: -0.01em;
+}
+
+.header__umlaut {
+  color: var(--accent);
+}
+
+@media (max-width: 640px) {
+  .header__menu-btn span {
+    display: none;
+  }
+}

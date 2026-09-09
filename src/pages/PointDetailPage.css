@@ -1,0 +1,82 @@
+.point-detail {
+  flex: 1;
+  width: 100%;
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 24px 20px 60px;
+}
+
+.point-detail__back {
+  display: inline-block;
+  margin-bottom: 16px;
+  color: var(--text-muted);
+  text-decoration: none;
+  font-size: 13.5px;
+}
+
+.point-detail__back:hover {
+  color: var(--accent);
+}
+
+.point-detail__type {
+  display: inline-block;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-faint);
+  background: var(--surface-raised);
+  padding: 3px 9px;
+  border-radius: 999px;
+  margin-bottom: 8px;
+}
+
+.point-detail__title {
+  font-family: var(--font-display);
+  font-size: clamp(22px, 4vw, 28px);
+  font-weight: 600;
+  margin: 0 0 18px;
+}
+
+.point-detail__fields {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 18px 20px;
+  margin: 0;
+}
+
+.point-detail__fields > div {
+  padding: 10px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.point-detail__fields > div:last-child {
+  border-bottom: none;
+}
+
+.point-detail__fields dt {
+  font-size: 12px;
+  color: var(--text-faint);
+  margin-bottom: 4px;
+}
+
+.point-detail__fields dd {
+  margin: 0;
+  font-size: 14px;
+  color: var(--text);
+}
+
+.point-detail__fields dd a {
+  color: var(--accent);
+  text-decoration: none;
+  word-break: break-word;
+}
+
+.point-detail__fields dd a:hover {
+  text-decoration: underline;
+}
+
+.point-detail__yes {
+  color: var(--route);
+  font-weight: 500;
+}

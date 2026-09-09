@@ -1,0 +1,27 @@
+.not-found-trip {
+  max-width: 480px;
+  margin: 60px auto;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.not-found-trip h1 {
+  font-family: var(--font-display);
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.not-found-trip p {
+  color: var(--text-muted);
+  margin-bottom: 18px;
+}
+
+.not-found-trip__link {
+  color: var(--accent);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.not-found-trip__link:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,38 @@
+.cardpayment-block {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 18px 20px;
+  margin-bottom: 16px;
+  font-size: 13.5px;
+  line-height: 1.65;
+  color: var(--text-muted);
+}
+
+.cardpayment-block p {
+  margin: 0 0 12px;
+}
+
+.cardpayment-block ul {
+  margin: 0 0 12px;
+  padding-left: 20px;
+}
+
+.cardpayment-block li {
+  margin-bottom: 6px;
+}
+
+.cardpayment-block b,
+.cardpayment-warning b {
+  color: var(--text);
+}
+
+.cardpayment-warning {
+  background: var(--danger-soft);
+  border: 1px solid var(--danger);
+  color: var(--text);
+  border-radius: var(--radius-md);
+  padding: 14px 16px;
+  font-size: 13px;
+  line-height: 1.55;
+}

@@ -1,0 +1,40 @@
+.trip-filters {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  padding: 16px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  margin-bottom: 20px;
+}
+
+.trip-filters__field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 12.5px;
+  color: var(--text-muted);
+}
+
+.trip-filters__field select,
+.trip-filters__field input {
+  font-family: var(--font-body);
+  font-size: 14px;
+  padding: 9px 10px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+  background: var(--surface-raised);
+  color: var(--text);
+}
+
+.trip-filters__field select:focus,
+.trip-filters__field input:focus {
+  border-color: var(--accent);
+}
+
+@media (max-width: 720px) {
+  .trip-filters {
+    grid-template-columns: 1fr;
+  }
+}
