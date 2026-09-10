@@ -28,5 +28,5 @@ export const contactItems: ContactItem[] = [
   { label: 'Оплата картой', labelKey: 'nav.cardpayment', href: '/cardpayment', icon: 'card' },
   { label: '+38 (093) 177-57-60', icon: 'phone' },
   { label: 'Мы в Facebook', href: 'https://facebook.com/dertrager/', icon: 'facebook' },
-  { label: 'Публичная оферта', href: '/publicoffer', icon: 'doc' },
+  { label: 'Публичная оферта', labelKey: 'nav.publicoffer', href: '/publicoffer', icon: 'doc' },
 ];

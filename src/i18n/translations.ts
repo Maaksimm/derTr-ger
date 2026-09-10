@@ -17,6 +17,10 @@ export const translations: Record<Lang, Record<string, string>> = {
     'nav.reward': 'Программа лояльности',
     'nav.reports': 'Отчёт по рейсам',
     'nav.cardpayment': 'Оплата картой',
+    'nav.publicoffer': 'Публичная оферта',
+    'publicoffer.title': 'Публичная оферта',
+    'publicoffer.text':
+      'Полный текст публичной оферты уточняйте у нас в Telegram или по телефону — этот раздел сайта ещё наполняется.',
 
     // ---- header / menu ----
     'header.menu': 'Меню',
@@ -264,6 +268,10 @@ export const translations: Record<Lang, Record<string, string>> = {
     'nav.reward': 'Програма лояльності',
     'nav.reports': 'Звіт за рейсами',
     'nav.cardpayment': 'Оплата карткою',
+    'nav.publicoffer': 'Публічна оферта',
+    'publicoffer.title': 'Публічна оферта',
+    'publicoffer.text':
+      'Повний текст публічної оферти уточнюйте в нас у Telegram або за телефоном — цей розділ сайту ще наповнюється.',
 
     'header.menu': 'Меню',
     'header.openMenu': 'Відкрити меню',

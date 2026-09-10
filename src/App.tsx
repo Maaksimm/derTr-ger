@@ -13,6 +13,7 @@ import { PackageFormPage } from './pages/PackageFormPage';
 import { PassengerFormPage } from './pages/PassengerFormPage';
 import { PointDetailPage } from './pages/PointDetailPage';
 import { PointsPage } from './pages/PointsPage';
+import { PublicOfferPage } from './pages/PublicOfferPage';
 import { ReportsPage } from './pages/ReportsPage';
 import { RewardFormPage } from './pages/RewardFormPage';
 import { RewardPage } from './pages/RewardPage';
@@ -46,6 +47,7 @@ function App() {
 
       <Routes>
         <Route path="/" element={<TripsPage />} />
+        <Route path="/trips" element={<TripsPage />} />
         <Route path="/trip/:tripId/passenger" element={<PassengerFormPage />} />
         <Route path="/trip/:tripId/package" element={<PackageFormPage />} />
         <Route path="/transportation" element={<TransportationPage />} />
@@ -59,6 +61,7 @@ function App() {
         <Route path="/reward/join" element={<RewardFormPage />} />
         <Route path="/reports/trips" element={<ReportsPage />} />
         <Route path="/cardpayment" element={<CardPaymentPage />} />
+        <Route path="/publicoffer" element={<PublicOfferPage />} />
       </Routes>
 
       <Footer />
