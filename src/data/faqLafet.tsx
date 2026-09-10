@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import type { AccordionItem } from '../components/Accordion';
 import type { Lang } from '../i18n/translations';
 
@@ -14,7 +15,7 @@ const ru: AccordionItem[] = [
     question: 'Есть ли у вас скидки или накопительные программы для постоянных клиентов?',
     answer: (
       <p>
-        Для всех наших клиентов действует <a href="/reward">программа лояльности</a>.
+        Для всех наших клиентов действует <Link to="/reward">программа лояльности</Link>.
       </p>
     ),
   },
@@ -33,7 +34,7 @@ const uk: AccordionItem[] = [
     question: 'Чи є у вас знижки або накопичувальні програми для постійних клієнтів?',
     answer: (
       <p>
-        Для всіх наших клієнтів діє <a href="/reward">програма лояльності</a>.
+        Для всіх наших клієнтів діє <Link to="/reward">програма лояльності</Link>.
       </p>
     ),
   },
